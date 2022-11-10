@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp11"
         mc:Ignorable="d"
-        Title="First App" Height="450" Width="800" Background="#000">
+        Title="First App" Height="450" Width="800" Background="#fff">
     <Grid >
         <!--<Button 
             Foreground="#00ff7f" 
@@ -106,7 +106,7 @@
 
 
 
-        <StackPanel VerticalAlignment="Center">
+        <!--<StackPanel VerticalAlignment="Center">
             <Border Width="510" BorderThickness="6"  CornerRadius="8">
                 
             <Label 
@@ -124,7 +124,7 @@
                         <GradientStop Color="#43C6AC" Offset="0" ></GradientStop>
                         <GradientStop Color="#F8FFAE" Offset="1" ></GradientStop>
                     </LinearGradientBrush>
-                </Label.Foreground>
+                </Label.Foreground>  
             </Label>
 
                 <Border.BorderBrush>
@@ -137,6 +137,13 @@
                 </Border.BorderBrush>
                 
             </Border>
+        </StackPanel>-->
+
+
+
+        <StackPanel Name="mystackpanel" >
+            <Button Click="Button_Click_1" FontSize="25" FontWeight="ExtraBlack" Height="50" Content="Button" ></Button>
+            <Button MouseDoubleClick="Button_MouseDoubleClick" FontSize="25" FontWeight="ExtraBlack" Height="50" Content="Button" ></Button>
         </StackPanel>
 
     </Grid>

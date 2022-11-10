@@ -32,7 +32,32 @@ namespace WpfApp11
 
         private void login_Click(object sender, RoutedEventArgs e)
         {
-            
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            mystackpanel.Children.Clear();
+        }
+
+        private void Button_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            //if (e.LeftButton == MouseButtonState.Pressed)
+            //{
+            //    foreach (var control in mystackpanel.Children)
+            //    {
+            //        if (control is Button bt)
+            //        {
+            //            bt.Content += " checked";
+            //        }
+            //    }
+            //}
+            //else if(e.RightButton== MouseButtonState.Pressed)
+            //{
+            //    var btn = new Button();
+            //    btn.Content = "New Button";
+            //    mystackpanel.Children.Add(btn);
+            //}
         }
     }
 }
