@@ -142,7 +142,7 @@
 
 
         <StackPanel Name="mystackpanel" >
-            <Button Click="Button_Click_1" FontSize="25" FontWeight="ExtraBlack" Height="50" Content="Button" ></Button>
+            <Button Visibility="Hidden" Click="Button_Click_1" FontSize="25" FontWeight="ExtraBlack" Height="50" Content="Button" ></Button>
             <Button MouseDoubleClick="Button_MouseDoubleClick" FontSize="25" FontWeight="ExtraBlack" Height="50" Content="Button" ></Button>
         </StackPanel>
 
